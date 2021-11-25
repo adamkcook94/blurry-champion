@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    font-family: 'Roboto';
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.bg {
+    background: url('pics/jinx_splash_art.jpg') no-repeat center;
+    background-size: cover;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(15px);
+}
+
+/* calc allows me to make calculations - so 100vw can now become 160vw */
+
+.loading-text {
+    font-size: 50px;
+    color: aliceblue;
+}
